@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html class="no-js"> <!--<![endif]-->
+    <head>
+        <!-- meta -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Student Corps SLHS</title>
+
+        <!-- stylesheets -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/ionicons.min.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.css">
+        <link rel="stylesheet" href="assets/css/owl.theme.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <script>
+            function initialize() {
+                var mapCanvas = document.getElementById('map-canvas');
+                var mapOptions = {
+                    center: new google.maps.LatLng(24.909439, 91.833800),
+                    zoom: 16,
+                    scrollwheel: false,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                }
+                var map = new google.maps.Map(mapCanvas, mapOptions)
+
+                var marker = new google.maps.Marker({
+                        position: new google.maps.LatLng(24.909439, 91.833800),
+                        title:"Cloud Agency Office"
+                    });
+
+                    // To add the marker to the map, call setMap();
+                    marker.setMap(map);
+            }
+
+            google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+
+    </head>
+
+    <body data-spy="scroll" data-target="#main-nav-collapse" data-offset="100">
+
+
+        <!-- site-navigation start -->
+        <nav id="mainNavigation" class="navbar navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-collapse" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <!-- navbar logo -->
+                    <div class="navbar-brand">
+                        <span class="sr-only">Cloud Agency</span>
+                        <a href="index.html">
+                            <img src="assets/img/main_logo.png" class="img-responsive center-block" alt="logo">
+                        </a>
+                    </div>
+                    <!-- navbar logo -->
+
+                </div><!-- /.navbar-header -->
+
+                <!-- nav links -->
+                <div class="collapse navbar-collapse" id="main-nav-collapse">
+                    <ul class="nav navbar-nav navbar-right text-uppercase">
+                        <li class="active">
+                            <a data-scroll="" href="#header">home</a>
+                        </li>
+                        <li class="">
+                            <a data-scroll="" href="#about">about</a>
+                        </li>
+                        <li class="">
+                            <a data-scroll="" href="#services">Officers</a>
+                        </li>
+
+
+
+                        <li class="">
+                            <a data-scroll="" href="#contact">contact</a>
+                        </li>
+                    </ul>
+                </div><!-- nav links -->
+
+            </div><!-- /.container -->
+        </nav>
+        <!-- site-navigation end -->
+
+
+        <div id="home-page">
+
+
+            <!-- Header -->
+            <header id="header" class="header-wrapper home-parallax home-fade">
+                <div class="color-overlay"></div>
+                <div class="header-wrapper-inner">
+                    <div class="container">
+
+                        <div class="intro">
+                            <h1>Student Corps</h1>
+                            <h3>At Seven Lakes High School</h3>
+                            <a href="SAMPLE LINK" class="btn btn-red-fill">Join us</a>
+                        </div><!-- /.intro -->
+
+                    </div><!-- /.container -->
+                </div><!-- /.header-wrapper-inner -->
+            </header>
+            <!-- /Header -->
+
+
+
+            <!-- start: about us section -->
+            <section id="about" class="dark-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-title">
+                                <h2>about us </h2>
+                            </div> <!-- /.section-title -->
+                        </div>
+                    </div>
+
+                    <div class="about-info">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="assets/img/smart-watch.jpg" alt="Smart Watch" class="img-responsive center-block">
+                            </div>
+                            <div class="col-md-8">
+                                <h2>Student Corps</h2>
+                                <p>
+Student Corps is a 501(c)(3) nonprofit organization that encourages participants to partake in volunteer activities. Student Corps offers the Presidential Volunteer Service Award, which is an award that awards volunteers for their hard work in helping the people. Student Corps encourages students to volunteer at any organization.<br><br><b>The mission of the Student Corps is to introduce students to the community role they will play in the future, through the following key ideas:</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div><!-- /.about-info -->
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="about-content">
+                                <div class="about-icon center-block">
+                                    <i class="ion-checkmark"></i>
+                                </div>
+                                <h3 class="about-heading">Opportunity Providing</h3>
+                                <p class="about-description">To provide students opportunities to be leaders in the school, town, and wider communities.
+                                </p>
+                            </div> <!--  end of .about-content  -->
+                        </div>
+                        <div class="col-md-4">
+                            <div class="about-content">
+                                <div class="about-icon center-block">
+                                    <i class="ion-checkmark"></i>
+                                </div>
+                                <h3 class="about-heading">Gain Perspective</h3>
+                                <p class="about-description">To help students gain larger world perspectives through volunteer experiences.
+                                </p>
+                            </div> <!--  end of .about-content  -->
+                        </div>
+                        <div class="col-md-4">
+                            <div class="about-content">
+                                <div class="about-icon center-block">
+                                    <i class="ion-checkmark"></i>
+                                </div>
+                                <h3 class="about-heading">Relation-Building</h3>
+                                <p class="about-description">To promote communication and collaboration between students to create a network between the leaders of the future.
+                                </p>
+                            </div> <!--  end of .about-content  -->
+                        </div>
+                    </div>
+                </div>
+            </section> <!-- /#about -->
+            <!-- end: about us section-->
+
+
+            <!-- start: our services section -->
+            <section id="services" class="light-gray-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-title">
+                                <h2>Officers</h2>
+                            </div> <!-- /.section-title -->
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-4 col-sm-6">
+                          <div>
+                            <img style="height: 100%; width: 100%; object-fit: contain" id="profpic1" img="" src="https://lh3.googleusercontent.com/-MqfGvf_MjHw/XeAwsGxjfDI/AAAAAAAAx9I/f0bz3fj9KP8H7HnWeVevPbFY4E8Xm-zwwCK8BGAsYHg/s0/2019-11-28.png">
+                          </div>
+                            <div class="service-content">
+                                <h3>Rhea Dixit</h3>
+                                <p>Vice President</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                          <div>
+                            <img style="height: 100%; width: 100%; object-fit: contain" id="profpic1" img="" src="https://lh3.googleusercontent.com/-hS3E-BIntzc/XeAwaq9JM2I/AAAAAAAAx88/mlM3aowXmeUGdt3xb4vk3fAFax-L_voTQCK8BGAsYHg/s0/2019-11-28.png">
+                          </div>
+                            <div class="service-content">
+                                <h3>Suzette Kannala</h3>
+                                <p>President</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                          <div>
+                            <img style="height: 100%; width: 100%; object-fit: contain" id="profpic1" img="" src="https://lh3.googleusercontent.com/--0I-V9wfApo/XeAwZJVKfuI/AAAAAAAAx84/dCcQKrXuF1UYTtooMcZp0sS9ydpVUAkhQCK8BGAsYHg/s0/2019-11-28.png">
+                          </div>
+                            <div class="service-content">
+                                <h3>Anjali Punnoose</h3>
+                                <p>Treasurer</p>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </section> <!-- /#services -->
+            <!-- end: our services section -->
+
+
+
+            <!-- start: portfolio section-->
+            <section id="portfolio" class="dark-gray-bg">
+                <div class="container">
+
+                    <div class="row portfolio-filter">
+                        <div class="col-md-12 filter-button-group" id="filters">
+                            <div class="section-title">
+                                <h2>Recent</h2>
+                            </div> <!-- /.section-title -->
+                            <button data-filter="*" class="btn btn-default btn-red-border section-heading-btn" type="button"><a href="https://www.instagram.com/stucorpsslhs/"><font color="red">Visit Instagram</font></a></button>
+
+
+
+
+                        </div>
+                    </div>  <!-- row -->
+
+                    <div class="row">
+                          <iframe src="https://embedsocial.com/api/pro_album/instagram/0148fa475d126aa5294059b5c27e94822be133d4" id="embedIFrame_0148fa475d126aa5294059b5c27e94822be133d4r7i1wl" class="embedsocial-in-album-iframe" scrolling="no" style="width: 0px; height: 814px; max-height: 100%; max-width: 100%; min-height: 100%; min-width: 100%; border: 0px; overflow: hidden;"></iframe>
+                    </div>  <!-- row -->
+                </div>
+            </section> <!-- /#portfolio -->
+            <!-- end: portfolio section-->
+
+
+
+            <!-- start: testimonial -->
+             <!-- /#testimonial -->
+            <!-- end: testimonial -->
+
+
+
+
+
+            <!-- start: call-to-action section-->
+            <section class="call-to-action text-capitalize">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                            <div class="row">
+                                <div class="col-md-8 col-sm-9">
+                                    <h3>Ready to begin?</h3>
+                                </div>
+                                <div class="col-md-4 col-sm-3">
+                                    <a href="SAMPLE LINK" class="btn btn-white-border">
+                                        Join us
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>  <!-- /. call-to-action -->
+            <!-- end: call-to-action section-->
+
+
+
+            <!-- start: pricing section -->
+             <!-- /#pricing -->
+            <!-- end: pricing section -->
+
+
+
+            <!-- start: blog section-->
+             <!-- /#blog -->
+            <!-- end: blog section-->
+
+
+
+            <!-- start: contact section-->
+            <section id="contact">
+                <div class="container">
+                    <div class="row">
+
+
+                        <div class="col-md-4">
+                            <h3>contact details</h3>
+
+
+
+
+
+                            <p>
+                                <b>Email us at </b>studentcorpsslhs@gmail.com
+                                <br>
+                                <b>Join us on Remind at</b> @slhsstucor
+                            </p>
+
+                            <ul class="social-icons">
+                                <li>
+                                    <a href="#"><i class="ion-social-instagram"></i></a>
+                                </li>
+
+
+
+
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </section> <!-- /#contact -->
+            <!-- end: contact section-->
+
+
+
+            <!-- start: footer -->
+            <footer class="text-uppercase">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <p>© copyright Student Corps SLHS 2019</p>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <p class="credit">Website by <a href="">Daniel Wei</a></p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- end: footer -->
+
+
+        </div>
+
+
+        <!--  Necessary scripts  -->
+        <script type="text/javascript" src="assets/js/jquery-2.1.3.min.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
+        <script type="text/javascript" src="assets/js/smooth-scroll.min.js"></script>
+        <script type="text/javascript" src="assets/js/owl.carousel.js"></script>
+        <script type="text/javascript" src="assets/js/contact.js"></script>
+        <script type="text/javascript" src="assets/js/script.js"></script>
+
+
+
+
+</body>
+</html>
